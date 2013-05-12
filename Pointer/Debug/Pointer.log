@@ -1,27 +1,14 @@
-﻿Der Buildvorgang wurde am 08.05.2013 17:59:50 gestartet.
-     1>Projekt "C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Pointer\Pointer.vcxproj" auf Knoten "2", build Ziel(e).
-     1>InitializeBuildStatus:
-         "Debug\Pointer.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt pointer.c
+﻿Der Buildvorgang wurde am 12.05.2013 13:09:42 gestartet.
+     1>Projekt "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Pointer\Pointer.vcxproj" auf Knoten "4", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt pointer.c
          pointer.c
-     1>c:\users\friedrich\documents\visual studio 2010\projects\systemprogrammierung\pointer\pointer.c(5): warning C4101: 'i': Unreferenzierte lokale Variable
-       ManifestResourceCompile:
-         Alle Ausgaben sind aktuell.
+     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\pointer\pointer.c(5): warning C4101: 'i': Unreferenzierte lokale Variable
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Debug\Pointer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Pointer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Debug\Pointer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Debug\Pointer.lib" /MACHINE:X86 Debug\Pointer.exe.embed.manifest.res
-         Debug\pointer.obj
-       Manifest:
-         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Pointer.exe.embed.manifest" /manifest Debug\Pointer.exe.intermediate.manifest
-         Alle Ausgaben sind aktuell.
-       LinkEmbedManifest:
-         Alle Ausgaben sind aktuell.
-         Pointer.vcxproj -> C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Debug\Pointer.exe
-       FinalizeBuildStatus:
-         Die Datei "Debug\Pointer.unsuccessfulbuild" wird gelöscht.
-         Aktualisieren des Timestamps von "Debug\Pointer.lastbuildstate".
-     1>Die Erstellung des Projekts "C:\Users\Friedrich\documents\visual studio 2010\Projects\SystemProgrammierung\Pointer\Pointer.vcxproj" ist abgeschlossen, build Ziel(e).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Pointer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Pointer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Pointer.lib" /MACHINE:X86 Debug\pointer.obj
+         Pointer.vcxproj -> D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Pointer.exe
+     1>Die Erstellung des Projekts "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Pointer\Pointer.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
 
-Das Erstellen war erfolgreich.
+Build erfolgreich.
 
-Verstrichene Zeit 00:00:08.83
+Verstrichene Zeit 00:00:02.61
