@@ -2,6 +2,29 @@
 #include <time.h>
 
 
+int zaehler = 1;
+
+typedef struct _knoten
+{
+	struct _knoten *links;
+	struct _knoten *rechts;
+	int wert;
+} knoten;
+
+knoten baum(int anzahl){
+	knoten *neuerKnoten;
+	knoten *nullKnoten;
+
+	if(anzahl < 1){
+		return *nullKnoten;
+	}
+	else{
+		neuerKnoten->links = &baum(anzahl / 2);
+		neuerKnoten->wert = zaehler++;
+		neuerKnoten->rechts = &baum(anzahl / 2);
+	}
+}
+
 void strcpy(char *s, char *t){
 	while((*t++=*s++) != '\0'){
 		;
@@ -60,14 +83,17 @@ void main(){
 	char test[3];
 	char *ptr = 0;
 
+	knoten Baum;
+	Baum = baum(65);
+
 	//strcpy(string, ausgabe);
 	//int erg = strcmp(string, ausgabe);
 	//ptr = (char *)memcpy(test, string, 3);
-	while(1){
+	/*while(1){
 		printf("Warte 3 sekunden");
 		sleep(3);
 		printf("\a\n");
-	}
+	}*/
 	//printf("Ausgabe: %s", ptr);
 	//printf("Ausgabe: %s", ausgabe);
 	//printf("Compare: %i", erg);

@@ -1,16 +1,12 @@
-﻿Der Buildvorgang wurde am 12.05.2013 17:37:51 gestartet.
-     1>Projekt "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 14.05.2013 22:45:22 gestartet.
+     1>Projekt "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" auf Knoten "5", Rebuild Ziel(e).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
          main.c
-     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(39): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112): Siehe Deklaration von 'localtime'
-     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(60): warning C4101: 'test': Unreferenzierte lokale Variable
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Übung_3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Übung_3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Übung_3.lib" /MACHINE:X86 Debug\main.obj
-         Übung_3.vcxproj -> D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Debug\Übung_3.exe
-     1>Die Erstellung des Projekts "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" ist abgeschlossen, Build Ziel(e).
+     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(22): error C2102: '&' erwartet L-Wert
+     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(24): error C2102: '&' erwartet L-Wert
+     1>Die Erstellung des Projekts "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
 
-Build erfolgreich.
+Fehler beim Buildvorgang.
 
-Verstrichene Zeit 00:00:00.24
+Verstrichene Zeit 00:00:00.11
