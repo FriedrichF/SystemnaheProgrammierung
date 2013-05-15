@@ -1,12 +1,17 @@
-﻿Der Buildvorgang wurde am 14.05.2013 22:45:22 gestartet.
-     1>Projekt "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" auf Knoten "5", Rebuild Ziel(e).
-     1>ClCompile:
+﻿Der Buildvorgang wurde am 15.05.2013 16:42:07 gestartet.
+     1>Projekt "C:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemProgrammierung\Übung_3\Übung_3.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>_PrepareForClean:
+         Die Datei "Debug\Übung_3.lastbuildstate" wird gelöscht.
+       InitializeBuildStatus:
+         "Debug\Übung_3.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
          main.c
-     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(22): error C2102: '&' erwartet L-Wert
-     1>d:\users\friedrich\documents\visual studio 2012\projects\systemnaheprogrammierung\übung_3\main.c(24): error C2102: '&' erwartet L-Wert
-     1>Die Erstellung des Projekts "D:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemnaheProgrammierung\Übung_3\Übung_3.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
+     1>c:\users\friedrich\documents\visual studio 2012\projects\systemprogrammierung\übung_3\main.c(23): error C2102: '&' erwartet L-Wert
+     1>c:\users\friedrich\documents\visual studio 2012\projects\systemprogrammierung\übung_3\main.c(25): error C2102: '&' erwartet L-Wert
+     1>c:\users\friedrich\documents\visual studio 2012\projects\systemprogrammierung\übung_3\main.c(87): warning C4047: 'Initialisierung': Anzahl der Dereferenzierungen bei 'int' und 'void *' unterschiedlich
+     1>Die Erstellung des Projekts "C:\Users\Friedrich\Documents\Visual Studio 2012\Projects\SystemProgrammierung\Übung_3\Übung_3.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
 
 Fehler beim Buildvorgang.
 
-Verstrichene Zeit 00:00:00.11
+Verstrichene Zeit 00:00:01.61

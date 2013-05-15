@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 
-
 int zaehler = 1;
 
 typedef struct _knoten
@@ -14,6 +13,8 @@ typedef struct _knoten
 knoten baum(int anzahl){
 	knoten *neuerKnoten;
 	knoten *nullKnoten;
+	
+	nullKnoten = NULL;
 
 	if(anzahl < 1){
 		return *nullKnoten;
@@ -60,7 +61,6 @@ void sleep(int seconds){
 
 	actualTime = time(&startTime);
 	endTime = *localtime(&startTime);
-	
 	endTime.tm_sec += seconds;
 
 	finishTime = mktime(&endTime);
@@ -70,6 +70,7 @@ void sleep(int seconds){
 		if(i%100 == 1){
 			diff = difftime(finishTime,actualTime);
 			if(diff <= 0){
+				printf("Zeit: %d", actualTime);
 				return;
 			}
 		}
@@ -83,17 +84,19 @@ void main(){
 	char test[3];
 	char *ptr = 0;
 
-	knoten Baum;
-	Baum = baum(65);
+	int f = NULL;
+
+	//knoten Baum;
+	//Baum = baum(65);
 
 	//strcpy(string, ausgabe);
 	//int erg = strcmp(string, ausgabe);
 	//ptr = (char *)memcpy(test, string, 3);
-	/*while(1){
+	while(1){
 		printf("Warte 3 sekunden");
 		sleep(3);
 		printf("\a\n");
-	}*/
+	}
 	//printf("Ausgabe: %s", ptr);
 	//printf("Ausgabe: %s", ausgabe);
 	//printf("Compare: %i", erg);
