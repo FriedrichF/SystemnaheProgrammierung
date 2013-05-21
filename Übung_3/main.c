@@ -86,6 +86,8 @@ void main(){
 
 	int f = NULL;
 
+	int werte[] = {5,4,8,2,7,9};
+
 	//knoten Baum;
 	//Baum = baum(65);
 
